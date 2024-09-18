@@ -31,12 +31,12 @@ namespace BasicCrudCSharp
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
-            this.nameTxtBox = new System.Windows.Forms.TextBox();
             this.ageTxtBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.emailTxtBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.nameTxtBox = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -58,14 +58,6 @@ namespace BasicCrudCSharp
             this.label1.Size = new System.Drawing.Size(100, 23);
             this.label1.TabIndex = 1;
             this.label1.Text = "Name";
-            // 
-            // nameTxtBox
-            // 
-            this.nameTxtBox.Location = new System.Drawing.Point(36, 597);
-            this.nameTxtBox.Name = "nameTxtBox";
-            this.nameTxtBox.Size = new System.Drawing.Size(321, 22);
-            this.nameTxtBox.TabIndex = 2;
-            this.nameTxtBox.Text = " ";
             // 
             // ageTxtBox
             // 
@@ -109,20 +101,28 @@ namespace BasicCrudCSharp
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // nameTxtBox
+            // 
+            this.nameTxtBox.Location = new System.Drawing.Point(37, 597);
+            this.nameTxtBox.Name = "nameTxtBox";
+            this.nameTxtBox.Size = new System.Drawing.Size(321, 22);
+            this.nameTxtBox.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1283, 724);
+            this.Controls.Add(this.nameTxtBox);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.emailTxtBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ageTxtBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.nameTxtBox);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Form1";
+            this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -133,12 +133,12 @@ namespace BasicCrudCSharp
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox nameTxtBox;
         private System.Windows.Forms.TextBox ageTxtBox;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox emailTxtBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox nameTxtBox;
     }
 }
 

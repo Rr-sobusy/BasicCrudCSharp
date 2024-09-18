@@ -42,6 +42,7 @@ namespace BasicCrudCSharp
             set => emailTxtBox.Text = value;
         }
 
+
         public void RefreshDGV(List<IUserModel> NewRecord)
         {
             dataGridView1.DataSource = null;
