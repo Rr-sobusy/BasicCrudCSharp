@@ -1,0 +1,9 @@
+C:\Users\acer\source\repos\BasisCrudCSharp\BasisCrudCSharp\bin\Debug\BasisCrudCSharp.exe.config
+C:\Users\acer\source\repos\BasisCrudCSharp\BasisCrudCSharp\bin\Debug\BasisCrudCSharp.exe
+C:\Users\acer\source\repos\BasisCrudCSharp\BasisCrudCSharp\bin\Debug\BasisCrudCSharp.pdb
+C:\Users\acer\source\repos\BasisCrudCSharp\BasisCrudCSharp\obj\Debug\BasisCrudCSharp.Properties.Resources.resources
+C:\Users\acer\source\repos\BasisCrudCSharp\BasisCrudCSharp\obj\Debug\BasicCrudCSharp.csproj.GenerateResource.cache
+C:\Users\acer\source\repos\BasisCrudCSharp\BasisCrudCSharp\obj\Debug\BasicCrudCSharp.csproj.CoreCompileInputs.cache
+C:\Users\acer\source\repos\BasisCrudCSharp\BasisCrudCSharp\obj\Debug\BasisCrudCSharp.exe
+C:\Users\acer\source\repos\BasisCrudCSharp\BasisCrudCSharp\obj\Debug\BasisCrudCSharp.pdb
+C:\Users\acer\source\repos\BasisCrudCSharp\BasisCrudCSharp\obj\Debug\BasicCrudCSharp.Form1.resources
